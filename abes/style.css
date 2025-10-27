@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.abc{
+    background-color: rgb(228, 83, 20);
+    height: 20px;
+    
+}
+ header >img{
+    display: block;
+    margin: auto;
+
+}
+nav ul>li{
+    display: inline;
+}
+nav a{
+    color: white;
+    padding: 15px;
+}
+nav{
+    border: solid black;
+}
+header{
+    margin-bottom: 10px;
+}
+

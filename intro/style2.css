@@ -1,0 +1,33 @@
+/* div{
+    border: 8px solid gold ;
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+ display: inline-block;  
+margin: 20px;
+padding: 60px;
+border-radius: 30px;
+font-size: 20px;
+} */
+.bgcolour{
+  background: black;  
+} 
+#third{
+    background-color: brown;
+}
+p{
+    color: blue;
+    border: 5px solid rgb(128, 0, 128);
+    background-color: beige;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 1.5;
+    /* letter-spacing: 1px; */
+    word-spacing: 2px;
+    text-transform: capitalize;
+    font-style: italic;
+    
+
+}

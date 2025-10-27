@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 64px ;
+}
+.box{
+    height: 50vw;
+    width:50vw;
+    background-color: blue;
+}
+
+.box3{
+    height: 400px;
+    width: 400px;
+    background-color:red;
+}
+.box4 {
+    height: 50%;
+    width:50%;
+    background-color: blue;
+}
+.box5{
+    height: 25%;
+    width: 25%;
+    background-color: green;
+}
+header{
+    font-size: 2rem;
+}
+header>p{
+    font-size: 2em;
+}
+header>span{
+    font-size: 0.75em;
+}

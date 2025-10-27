@@ -1,0 +1,24 @@
+*{
+    color: blue;
+    background-color: lightblue;
+}
+
+
+
+h1{
+    color: red;
+    background-color: blue;
+}
+h2{
+    
+    color: red;
+    background-color: blue;
+}
+div>p{
+    color: darkred;
+    background-color: antiquewhite;
+}
+div>section>p{
+    color: gold;
+    background-color: aliceblue;
+}

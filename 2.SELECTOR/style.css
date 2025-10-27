@@ -1,0 +1,47 @@
+body{
+    background-color: azure;
+}
+h1{
+    background-color: yellow;
+}
+h2{
+    background-color: blue;
+    color: whitesmoke;
+}
+.product{
+    background-color: aqua;
+    font-size: 16px;
+    border: 3px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+
+}
+/* .product >h2{
+    background-color: violet;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+} */
+.product-title{
+     background-color: aqua;
+    font-size: 16px;
+    border: 3px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+
+}
+.discount{
+    background-color: gainsboro;
+    color: red;
+
+}
+#mobile{
+    border:5px dashed blue;
+}
+.product-title,
+h2,
+p{
+    font-size: 20px;
+}

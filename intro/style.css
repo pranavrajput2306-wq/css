@@ -1,0 +1,34 @@
+
+        h1{
+            background-color: black;color: aliceblue;
+            padding: 20px;
+            border: 5px solid gold;
+            border-radius: 20px;
+
+        }
+        h2{
+            background-color: brown;color:gold;
+            padding: 30px;
+            text-align: center
+
+        }
+        p{
+            background-color: aqua;color: red;
+            padding: 20px;
+            margin-top: 30px;
+            margin-left: 20px;
+
+
+        }
+        div{
+            border: 5px solid blue;
+            margin-left: 350px;
+            margin-top: 30px;
+            background-color: aqua;
+            display: inline-block;
+
+        }
+    img{
+      display: block;
+      margin: auto;
+    }
