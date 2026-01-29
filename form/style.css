@@ -1,0 +1,118 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    margin: 50px;
+      padding-left: 200px;
+      position: relative;
+
+    border: 2px solid black;
+    background-color: lightblue;
+    height: 60vh;
+    width: 60vw;
+}
+.entries{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-right: 25px;
+} */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main card */
+.parent {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.parent h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102,126,234,0.5);
+}
+
+/* Buttons */
+button {
+    width: 48%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Submit button */
+button:first-of-type {
+    background-color: #667eea;
+    color: white;
+}
+
+/* Reset button */
+button:last-of-type {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Hover effects */
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Form alignment */
+form {
+    text-align: left;
+}
+
+/* Make responsive */
+@media (max-width: 500px) {
+    .parent {
+        width: 90%;
+    }
+}
